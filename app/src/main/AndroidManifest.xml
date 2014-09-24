@@ -20,6 +20,14 @@
             android:name=".Listok"
             android:label="@string/title_activity_listok" >
         </activity>
+        <activity
+            android:name=".InfoListok"
+            android:label="@string/title_activity_info_listok"
+            android:parentActivityName=".Listok" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.imhdsmslistok.Listok" />
+        </activity>
     </application>
 
 </manifest>

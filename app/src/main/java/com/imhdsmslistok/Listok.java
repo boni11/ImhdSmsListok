@@ -1,20 +1,31 @@
 package com.imhdsmslistok;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.Toast;
 
 
-public class Listok extends ActionBarActivity {
+public class Listok extends ActionBarActivity implements View.OnClickListener{
+
+    Button bInfo;
+    @Override
+    public void onClick(View view) {
+        Intent intent = new Intent(Listok.this,InfoListok.class);
+        startActivity(intent);
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+
 
         Intent intent=getIntent();
         String mesto=intent.getStringExtra("mesto");
@@ -24,7 +35,11 @@ public class Listok extends ActionBarActivity {
             setContentView(R.layout.activity_listok);
         }else if(mesto.equals("ke")){
             setContentView(R.layout.activity_listok_ke);
+
         }
+
+        bInfo=(Button)findViewById(R.id.button_info);
+        bInfo.setOnClickListener(this);
 
 //
 //        Intent intent=getIntent();
