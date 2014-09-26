@@ -6,6 +6,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_listok">Listok</string>
     <string name="title_activity_info_listok">InfoListok</string>
+    <string name="info_text"><u>info</u></string>
     <string name="listok_info"><b>Podmienky využitia služby:</b>\n
 
     - SMS lístok je potrebné zakúpiť pred nastúpením do vozidla; SMS cestovný lístok bude doručený približne do 2 minút od zaslania SMS. Tento časový údaj je iba orientačný.\n
