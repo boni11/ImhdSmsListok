@@ -5,6 +5,7 @@
     <color name="lightBlue">#c7ebff</color>
     <color name="darktBlue">#ebf8ff</color>
     <color name="bg1">#5d524c</color>
-    <color name="b">#000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
 
 </resources>

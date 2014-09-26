@@ -6,5 +6,33 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_listok">Listok</string>
     <string name="title_activity_info_listok">InfoListok</string>
+    <string name="listok_info"><b>Podmienky využitia služby:</b>\n
+
+    - SMS lístok je potrebné zakúpiť pred nastúpením do vozidla; SMS cestovný lístok bude doručený približne do 2 minút od zaslania SMS. Tento časový údaj je iba orientačný.\n
+    - Cestujúci je povinný nastúpiť do vozidla MHD s už prijatým platným cestovným SMS lístkom na mobilnom komunikačnom zariadení.\n
+    - Pri kontrole tarifného vybavenia je cestujúci povinný predložiť na výzvu revízora alebo inej poverenej osobe SMS cestovný lístok a reálnym spôsobom umožniť overenie jeho platnosti.\n
+    - Dodatočné preukázanie sa SMS cestovným lístkom sa neakceptuje.\n
+    - Zakúpením SMS lístka cestujúci súhlasí s tým, že k overeniu jeho platnosti predloží k nahliadnutiu revízorovi alebo inej oprávnenej osobe mobilné komunikačné zariadenie pre overenie všetkých prijatých dát SMS cestovného lístka t.j. nielen samotného textu prijatej SMS správy, ale tiež aj ostatných detailov).\n
+    - Zľavnený cestovný lístok sa vo forme SMS neposkytuje.\n
+    - SMS lístok je možné použiť aj ako dovozné na prepravu psa.\n
+    - SMS lístok je prestupný a platí na všetkých linkách v Košiciach - vrátane liniek nočných spojov.\n
+    - Z jedného mobilného komunikačného zariadenia je možné prostredníctvom SMS zakúpiť aj viacero SMS cestovných lístkov, na mobilné komunikačné zariadenie bude zaslaných toľko SMS cestovných lístkov koľkokrát bola zaslaná prázdna SMS na dané skrátené číslo.\n
+
+\n\n<b>SMS cestovný lístok je neplatný, ak:</b>\n
+
+    - uplynula doba jeho platnosti,\n
+    - kód SMS cestovného lístka je neplatný,\n
+    - nebol zaslaný priamo zmluvným distribútorom SMS cestovných lístkov,\n
+    - bol upravovaný, prepisovaný alebo preposlaný z iného mobilného komunikačného zariadenia,\n
+    - z dôvodov na strane cestujúceho nie je možné overiť jeho platnosť.\n
+
+\n\n<b>SMS cestovný lístok nebude doručený, ak:</b>\n
+
+    - nebudú vyhovujúce podmienky na realizáciu služby,\n
+    - platba za SMS cestovný lístok prekročí výšku limitu na predplatenej karte,\n
+    - je telefónne číslo zákazníka zaradené do skupiny, podľa kritérií mobilného operátora, ktorým nie je umožnené využívať službu SMS platby,\n
+    - celkový finančný objem transakcií uskutočnených v rámci jedného zúčtovacieho obdobia, pre jedno telefónne číslo prekročil 150 € v rámci systému Platieb za služby cez SMS.\n
+</string>
+
 
 </resources>
